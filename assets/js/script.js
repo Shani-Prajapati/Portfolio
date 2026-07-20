@@ -28,18 +28,6 @@ $(document).ready(function () {
             }
         });
     });
-
-    // smooth scrolling
-    $('a[href*="#"]').on('click', function (e) {
-        const targetId = $(this).attr('href');
-        if (targetId.length > 1 && $(targetId).length) {
-            e.preventDefault();
-            $('html, body').animate({
-                scrollTop: $(targetId).offset().top,
-            }, 500, 'linear');
-        }
-    });
-
 });
 
 // <!-- typed js effect starts -->
