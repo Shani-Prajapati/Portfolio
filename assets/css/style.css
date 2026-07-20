@@ -66,13 +66,21 @@ header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  background: linear-gradient(90deg, #0e2431, #011aff, #7303a7, #0e2431);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: logoSweep 6s linear infinite;
 }
 header .logo i {
   font-size: 2.2rem;
-}
-header .logo:hover {
   color: #011aff;
+  -webkit-text-fill-color: #011aff;
+}
+@keyframes logoSweep {
+  0% { background-position: 0% 0; }
+  100% { background-position: 300% 0; }
 }
 header .navbar ul {
   list-style: none;
