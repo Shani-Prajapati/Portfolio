@@ -63,7 +63,7 @@ const PROJECTS_DATA = [
     "category": "Developer Tools · Automation",
     "desc": "Automated code review tool that analyzes code quality and recommends improvements for cleaner, more efficient code.",
     "tech": "Python",
-    "links": { "view": "", "code": "https://github.com/Shani-Prajapati" }
+    "links": { "view": "", "code": "https://codereview04.vercel.app" }
   }
 ];
 
