@@ -35,14 +35,14 @@ const PROJECTS_DATA = [
     "category": "Computer Vision · Machine Learning · Proctoring",
     "desc": "Computer vision-based exam monitoring system that detects focus loss, distraction, and phone usage in real time to strengthen academic integrity during online exams.",
     "tech": "Python, HTML, CSS, JavaScript",
-    "links": { "view": "https://shani-prajapati.github.io/proctor/", "code": "https://github.com/Shani-Prajapati" }
+    "links": { "view": "https://shani-prajapati.github.io/proctor/", "code": "https://github.com/Shani-Prajapati/proctor" }
   },
   {
     "name": "University Event Registration System",
     "category": "Web App · Full Stack",
     "desc": "Full-stack event management platform with real-time seat tracking, secure user authentication, and an admin dashboard to streamline university event registration.",
     "tech": "HTML, CSS, JavaScript, Python, Google Cloud",
-    "links": { "view": " https://shani-prajapati.github.io/Universe-Event-Registration/", "code": "https://github.com/Shani-Prajapati" }
+    "links": { "view": " https://shani-prajapati.github.io/Universe-Event-Registration/", "code": "https://github.com/Shani-Prajapati/Universe-Event-Registration" }
   },
   {
     "name": "Used Car Price Prediction",
@@ -61,9 +61,9 @@ const PROJECTS_DATA = [
   {
     "name": "Code Review Agent",
     "category": "Developer Tools · Automation",
-    "desc": "Automated code review tool that analyzes code quality and recommends improvements for cleaner, more efficient code.",
-    "tech": "Python",
-    "links": { "view": "https://codereview04.vercel.app", "code": "https://github.com/Shani-Prajapati" }
+    "desc": "AI-powered code review tool built with React, TypeScript, and Tailwind CSS that analyzes code quality, flags bugs and security issues, suggests optimizations, and provides visual representations of code structure for easier understanding.",
+    "tech": "React, TypeScript, Tailwind CSS",
+    "links": { "view": "https://codereview04.vercel.app", "code": "https://github.com/Shani-Prajapati/ai-code-reviewer" }
   }
 ];
 
